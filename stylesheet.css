@@ -1,0 +1,10 @@
+body 
+{
+    background-color: powderblue;
+}
+h1 {
+    color: hsl(240, 100%, 50%);
+}
+p {
+    color: red;
+}
