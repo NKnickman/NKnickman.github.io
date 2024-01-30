@@ -47,13 +47,26 @@
         </div>
 
         <div class="p_entry">
-            <h1>Unity - Top-Down Building System Using Ear Clipping Triangulation</h1>
+            <h1>C# / Unity - Sims-Like Building System Using Ear Clipping Triangulation</h1>
             <div class="e_slideshow">
                 <div>
-                    <p>test</p>
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                        <video width="960" height="540" controls>
+                            <source src="media/sims_like_building_system/general_showcase.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                        This system was originally intended for a restaurant management game. Essentially what's happening is the wall segments are being used as sides to solve the ear clipping algorithim.
+                        This lets you generate floors for any room shape. I've also incorporated systems for other meshes to be inserted along the wall segments, this allows for placement of doors and windows.
+                    </p>
                 </div>
                 <div>
-                    <p>test2</p>
+                    <h1>Code Samples</h1>
+                    <p><a href="media/sims_like_building_system/Polygon2.cs" download>Polygon2</a> - A data type for representing and operating on 2D shapes.</p>
+                    <p><a href="media/sims_like_building_system/Triangulate.cs" download>Triangulate</a> - Contains implementation of ear clipping algorithim compatible with Polygon2.</p>
+                    <p>
+                        Showcased here are the two main classes used in generating floor meshes from wall segments. Essentially the 3D mesh information is converted to 2D where the ear clipping algorithim is then applied and converted back to 3D to serve as generated mesh data.
+                    </p>
                 </div>
             </div>
         </div>
