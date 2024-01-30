@@ -114,7 +114,7 @@ div.e_slideshow {
     position: relative;
     height: 750px;
     /* bottom: 0; */
-    background-color: rgba(0, 1, 0, 0.4);
+    /* background-color: rgba(0, 1, 0, 0.4); */
 }
 div.e_slideshow_content {
     position: absolute;
