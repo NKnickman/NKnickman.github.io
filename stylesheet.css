@@ -119,6 +119,7 @@ div.e_slideshow {
 div.e_slideshow_content {
     position: absolute;
     /* margin-bottom: 0; */
+    overflow: auto;
     height: 100%;
     left: 40px;
     right: 40px;

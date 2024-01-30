@@ -16,24 +16,24 @@
             <h1>C# / Unity - Marching Cubes Voxel Terrain Prototype Using Burst & Jobs</h1>
             <div class="e_slideshow">
                 <div>
-                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center;">
                         <video width="960" height="540" controls>
                             <source src="media/voxel_terrain/slow_test.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                    <p style="position: relative; height: 20%; justify-content: center;">
                         A prototype for ultra fast voxel terrain generation using Unity's burst compiler and job systems.
                         This video showcases a slower test where around 16 levels of detail are generated around the viewer.
                         Each level of detail beyond the second is about twice the size as the last, this exponential growth allows for very far render distance.
                     </p>
                 </div>
                 <div>
-                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center;">
                         <video width="960" height="540" controls>
                             <source src="media/voxel_terrain/fast_test.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                    <p style="position: relative; height: 20%; justify-content: center;">
                         Here's a faster test generating around 13 levels of detail. It's important to note that the generation makes heavy use of multi-threading.
                         Voxel weight generation is executed per voxel as an IJobParallelFor, whilst the meshing process is done per chunk in an IJobParallelFor.
                     </p>
@@ -50,12 +50,12 @@
             <h1>C# / Unity - Sims-Like Building System Using Ear Clipping Triangulation</h1>
             <div class="e_slideshow">
                 <div>
-                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center;">
                         <video width="960" height="540" controls>
                             <source src="media/sims_like_building_system/general_showcase.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                    <p style="position: relative; height: 20%; justify-content: center;">
                         This system was originally intended for a restaurant management game. Essentially what's happening is the wall segments are being used as sides to solve the ear clipping algorithim.
                         This lets you generate floors for any room shape. I've also incorporated systems for other meshes to be inserted along the wall segments, this allows for placement of doors and windows.
                     </p>
