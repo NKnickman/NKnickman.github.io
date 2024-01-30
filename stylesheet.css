@@ -105,6 +105,11 @@ div.p_entry h1 {
     line-height: 40px;
     height: 30px;
 }
+div.p_entry a {
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
 div.e_slideshow {
     position: relative;
     height: 750px;

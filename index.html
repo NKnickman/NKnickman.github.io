@@ -13,13 +13,35 @@
         <div style="min-height: 80px;"></div>
         
         <div class="p_entry">
-            <h1>Unity - Marching Cubes Voxel Terrain With LOD Using Burst & Jobs</h1>
+            <h1>C# / Unity - Marching Cubes Voxel Terrain Prototype Using Burst & Jobs</h1>
             <div class="e_slideshow">
                 <div>
-                    <p>test</p>
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                        <video width="960" height="540" controls>
+                            <source src="media/voxel_terrain/slow_test.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                        A prototype for ultra fast voxel terrain generation using Unity's burst compiler and job systems.
+                        This video showcases a slower test where around 16 levels of detail are generated around the viewer.
+                        Each level of detail beyond the second is about twice the size as the last, this exponential growth allows for very far render distance.
+                    </p>
                 </div>
                 <div>
-                    <p>test2</p>
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center; overflow: hidden;">
+                        <video width="960" height="540" controls>
+                            <source src="media/voxel_terrain/fast_test.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p style="position: relative; height: 20%; justify-content: center; overflow: auto;">
+                        Here's a faster test generating around 13 levels of detail. It's important to note that the generation makes heavy use of multi-threading.
+                        Voxel weight generation is executed per voxel as an IJobParallelFor, whilst the meshing process is done per chunk in an IJobParallelFor.
+                    </p>
+                </div>
+                <div>
+                    <h1>Code Samples</h1>
+                    <p><a href="media/voxel_terrain/Grid.cs" download>Grid</a> - Defines and runs voxel generation jobs.</p>
+                    <p><a href="media/voxel_terrain/OctifyLOD.cs" download>OctifyLOD</a> - Flattens and unflattens indices from and to 3D vectors. This is done in a fashion which incorporates LOD</p>
                 </div>
             </div>
         </div>
