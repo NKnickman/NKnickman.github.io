@@ -78,7 +78,7 @@ div.p_entry {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .navbar a:not(:first-child) {
         display: none;
     }
@@ -88,7 +88,7 @@ div.p_entry {
     .navbar h1:not(:first-child) {
         display: none;
     }
-}
+} */
 
 /* <div class="e_slideshow">
 <!-- <video width="320" height="240" controls>

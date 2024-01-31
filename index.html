@@ -5,15 +5,15 @@
         <div class="navbar">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()"><p>Ham</p></a>
             <h1>Nathaniel Knickman</h1>
-            <a href="index.html" class="label"><p>Computer Science</p></a>
-            <a href="3d_modelling.html" class="label"><p>3D Modelling</p></a>
-            <a href="digital_art.html" class="label"><p>Digital Art</p></a>
+            <a href="index.html" class="label"><p>Programming</p></a>
+            <a href="3d_assets.html" class="label"><p>3D Assets</p></a>
+            <a href="2d_assets.html" class="label"><p>2D Assets</p></a>
         </div>
 
         <div style="min-height: 80px;"></div>
         
         <div class="p_entry">
-            <h1>C# / Unity - Marching Cubes Voxel Terrain Prototype Using Burst & Jobs</h1>
+            <h1>C# / Unity - Marching Cubes Voxel Terrain Prototype Using DOTS</h1>
             <div class="e_slideshow">
                 <div>
                     <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center;">
@@ -66,6 +66,38 @@
                     <p><a href="media/sims_like_building_system/Triangulate.cs" download>Triangulate</a> - Contains implementation of ear clipping algorithim compatible with Polygon2.</p>
                     <p>
                         Showcased here are the two main classes used in generating floor meshes from wall segments. Essentially the 3D mesh information is converted to 2D where the ear clipping algorithim is then applied and converted back to 3D to serve as generated mesh data.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p_entry">
+            <h1>C# / Unity - Processor Nodes & Procedural Modelling Nodes Using XNode and DOTS</h1>
+            <div class="e_slideshow">
+                <div>
+                    <div style="position: relative; display: flex; flex-direction: row; margin-top: 40px; height: 70%; justify-content: center;">
+                        <video width="960" height="540" controls>
+                            <source src="media/model_graph/showcase.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <p style="position: relative; height: 20%; justify-content: center;">
+                        The goal of this project was the ability to prototpe and implement procedural geometry "rulesets" at high speeds.
+                        I have a particular affinity for procedural generation in games, and as such it's required me to develop tools to structure procedural systems faster.
+                        With the procedural modelling nodes, the process of developing procedural rules becomes more akin to asset development.
+                        This tool was built using XNode libraries, which I've used to implement directional evaluation of nodes, aswell as value type and collection convertability between nodes (e.g. a float output could be converted to a vector input or a collection of vectors could be converted to a single value and vice versa.)
+                        The tool was inspired by Blender's geometry nodes, with the hopes that it could integrate into the Unity workflow just as seamlessly.
+                    </p>
+                </div>
+                <div>
+                    <h1>Code Samples</h1>
+                    <p><a href="media/model_graph/ProcessorGraph.cs" download>ProcessorGraph</a> - Stores and controls the flow of all processor nodes.</p>
+                    <p><a href="media/model_graph/ProcessorNode.cs" download>ProcessorNode</a> - Stores and evaluates different input and output values.</p>
+                    <p><a href="media/model_graph/LogNode.cs" download>LogNode</a> - A simple example of a node that logs its input value.</p>
+                    <p><a href="media/model_graph/ExtrudeMeshOperatorNode.cs" download>OperatorNode</a> - A more complicated node that extrudes the faces of a mesh input.</p>
+                    <p>
+                        The modelling nodes were designed with a flexible inheritence hiearchy in mind. All modelling nodes inherit from another type of node called a "ProcessorNode".
+                        Essentially what this node does is provide basic functionality for processing mutable input and output values in a sequential fashion.
+                        If you wanted to create a different type of ProcessorNode, perhaps for defining AI behaviors or animation states, you could easily use the ProcessorNode as a base class.
                     </p>
                 </div>
             </div>
