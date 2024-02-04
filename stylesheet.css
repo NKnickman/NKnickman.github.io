@@ -5,6 +5,7 @@ body
 h1 {
     color: hsl(0, 0%, 100%);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 p {
     color: rgb(255, 255, 255);
@@ -13,7 +14,7 @@ p {
 }
 div.p_entry {
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.4);
     /* height: 80vh; */
     height: 800px;
@@ -146,10 +147,10 @@ a.e_right {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-  button.e_slideshow_button:hover {
+a.e_slideshow_button:hover {
     background-color: rgba(0,0,0,0.8);
-  }
-  div.e_slide {
+}
+div.e_slide {
     position: absolute;
     height: 100%;
     width: 95%;
@@ -157,8 +158,8 @@ a.e_right {
     animation-name: e_slide;
     animation-duration: 1.5s;
     /* margin: 0 40px 0 40px; */
-  }
-  @keyframes e_slide {
+}
+@keyframes e_slide {
     from {opacity: .4}
     to {opacity: 1}
-  }
+}
