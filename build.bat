@@ -1,2 +1,2 @@
-mkdocs build
+mkdocs build -d docs
 pause
