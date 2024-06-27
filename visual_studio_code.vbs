@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").run "code ../MKDocs", 0, True
