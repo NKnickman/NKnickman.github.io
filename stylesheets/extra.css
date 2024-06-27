@@ -1,0 +1,30 @@
+:root {
+    --md-primary-fg-color:        hsl(268, 100%, 45%);
+    --md-primary-fg-color--light: #9e49ff;
+    --md-primary-fg-color--dark:  #370075;
+  }
+
+.md-grid {
+    max-width: 90%;
+}
+
+.tabbed-block > .tabbed-set {
+    max-width: 80%;
+    left: 10%;
+    top: 10px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.tabbed-block {
+  .tabbed-set {
+    outline-style: inset;
+    outline-width: .05rem;
+    outline-color: var(--md-default-fg-color--lightest);
+  }
+}
+
+/* .grid > p {
+  text-align: center;
+  line-height: 100%;
+  vertical-align: middle;
+} */
