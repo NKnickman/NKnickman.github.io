@@ -1,0 +1,5 @@
+---
+title: GDScript
+---
+
+# GDScript
