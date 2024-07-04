@@ -1,1 +1,1 @@
-CreateObject("Wscript.Shell").run "code ../MKDocs", 0, True
+CreateObject("Wscript.Shell").run "code ../NKnickman.github.io", 0, True

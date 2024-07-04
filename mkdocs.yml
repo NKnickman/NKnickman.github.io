@@ -1,4 +1,5 @@
 site_name: Nathaniel Knickman
+docs_dir: 'markdown'
 plugins:
   - search
   - macros
@@ -8,8 +9,6 @@ plugins:
 nav:
   - 'Programming':
     - 'C#': 'programming_cs.md'
-    - 'C++': 'programming_cpp.md'
-    - 'GDScript': 'programming_gdscript.md'
   - 'Art':
     - '2D': 'art_2d.md'
     - '3D': 'art_3d.md'
