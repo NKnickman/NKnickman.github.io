@@ -57,8 +57,8 @@
        id="g4"
        transform="matrix(0.11227665,0,0,0.11227665,47.514355,1.5331727)"><path
          id="rect1"
-         style="fill:#f9f9f9;fill-rule:evenodd;stroke-width:30.5734;stroke-linecap:round;stroke-linejoin:round"
-         d="M 3.3618946,617.25446 V 1364.9374 H 309.30776 V 942.97512 H 670.16397 V 1364.9374 H 976.10984 V 617.25446 Z" /><path
+         style="fill:#f9f9f9;fill-rule:evenodd;stroke-width:26.9006;stroke-linecap:round;stroke-linejoin:round"
+         d="M 64.579656,631.87073 V 1294.0537 H 332.01746 V 920.34416 h 315.43682 v 373.70954 h 267.4378 V 631.87073 Z" /><path
          sodipodi:type="star"
          style="fill:#f9f9f9;fill-rule:evenodd;stroke-width:26.7198;stroke-linecap:round;stroke-linejoin:round"
          id="path2"
@@ -73,5 +73,5 @@
          inkscape:rounded="0"
          inkscape:randomized="0"
          d="m 204.2957,189.75462 -221.587489,0 L 93.501954,-2.1457672 Z"
-         transform="matrix(5.594776,0,0,2.6324276,-33.386941,130.85366)"
-         inkscape:transform-center-y="-9.4530179" /></g></g></svg>
+         transform="matrix(5.594776,0,0,2.3314009,-33.386941,201.09145)"
+         inkscape:transform-center-y="-8.3720343" /></g></g></svg>
