@@ -6,12 +6,15 @@ plugins:
   - mkdocs-video:
       is_video: True
       video_muted: True
+  - mkdocs-audio
 nav:
+  - 'Home': 'index.md'
   - 'Programming':
     - 'C#': 'programming_cs.md'
   - 'Art':
     - '2D': 'art_2d.md'
     - '3D': 'art_3d.md'
+    - 'Music': 'art_music.md'
 theme:
   palette:
     scheme: slate
