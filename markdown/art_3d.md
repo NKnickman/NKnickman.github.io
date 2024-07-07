@@ -4,6 +4,101 @@ title: 3D Artwork
 
 # 3D Artwork
 
+## Stylized "Brushed" Humanoid
+=== "Facial Expressions"
+
+    <div class="grid" markdown>
+    === "Default"
+    
+        ![Face 1](assets/media/brushed_humanoid/face.png)
+   
+    === "Surprised"
+    
+        ![Face 2](assets/media/brushed_humanoid/face_surprised.png)
+
+    === "Smile"
+    
+        ![Face 3](assets/media/brushed_humanoid/face_smile.png)
+    
+    === "Smug"
+    
+        ![Face 4](assets/media/brushed_humanoid/face_smug.png)
+    
+    === "Angry"
+    
+        ![Face 5](assets/media/brushed_humanoid/face_angry.png)
+    
+    === "Grumpy"
+    
+        ![Face 6](assets/media/brushed_humanoid/face_tired.png)
+    
+    === "Hairless"
+    
+        ![Face 1](assets/media/brushed_humanoid/face_hairless.png)
+
+    !!! quote "About"
+
+        One of my most recent and favorite character models. This humanoid was designed for a CRPG project of mine. I'd painted over the normal maps to create a subtle "brushed effect". This is an early version of the game's protagonist.
+    </div>
+
+=== "Poses"
+
+    <div class="grid" markdown>
+    === "T-Pose"
+    
+        ![T-Pose](assets/media/brushed_humanoid/t_pose.png)
+   
+    === "Arms Crossed"
+    
+        ![Arms Crossed](assets/media/brushed_humanoid/pose_arms_crossed.png)
+
+    === "Chaotic"
+    
+        ![Chaotic](assets/media/brushed_humanoid/pose_chaotic.png)
+
+    === "Deformation A"
+    
+        ![Deformation A](assets/media/brushed_humanoid/deformation_1.png)
+    
+    === "Deformation B"
+    
+        ![Deformation B](assets/media/brushed_humanoid/deformation_2.png)
+    
+    === "Deformation C"
+    
+        ![Deformation C](assets/media/brushed_humanoid/deformation_3.png)
+
+    !!! quote "About"
+
+        Here I've posed the character model in a few different ways. I was able to really refine the deformation and weight painting on this one, using the movement of multiple bones in some cases (e.g. shoulder bone and upper arm bone) to create better deformation and a more anatomically accurate pose.
+
+        In the "Deformation" poses, you can see the ability of the model to stretch whilst maintaining good deformation.
+    </div>
+
+=== "Topology"
+
+    <div class="grid" markdown>
+    === "Full"
+    
+        ![Topology 1](assets/media/brushed_humanoid/topology_1.png)
+   
+    === "Face"
+    
+        ![Topology 2](assets/media/brushed_humanoid/topology_2.png)
+    
+    === "Face (Hairless)"
+    
+        ![Topology 3](assets/media/brushed_humanoid/topology_3.png)
+    
+    === "Hand"
+    
+        ![Topology 4](assets/media/brushed_humanoid/topology_4.png)
+
+    !!! quote "About"
+
+        Here's a look at the topology of the model.
+    </div>
+
 ## Wasteland RPG Character Assets
 === "Facial Expressions"
 
@@ -202,7 +297,7 @@ title: 3D Artwork
 
     !!! quote "About"
 
-        I'm very happy with the overall look of the model, especially in the face. I'd never really experimented with unlit shading before this point and it gave me a lot more artistic freedom when representing the shading. For how low the poly count is, the facial expressions look quite good, I think this is one of the most polished models I've made.
+        I'm very happy with the overall look of the model, especially in the face. I'd never really experimented with unlit shading before this point and it gave me a lot more artistic freedom when representing the shading. For how low the poly count is, the facial expressions look quite good, I really think I polished this one well.
     </div>
 
 === "Topology"
