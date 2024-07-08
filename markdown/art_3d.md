@@ -315,3 +315,72 @@ title: 3D Artwork
 
         Topology of the model.
     </div>
+
+## Modern Military Weapons
+=== "Combat Knife"
+
+    <div class="grid" markdown>
+    === "Lit"
+    
+        ![Knife 1](assets/media/military_assets/knife.png)
+   
+    === "Wireframe"
+    
+        ![Knife 2](assets/media/military_assets/knife_wireframe.png)
+
+    !!! quote "About"
+
+        These assets were made for a Roblox military sim. They're quite low poly and have interchangable parts for in-game customization.
+    </div>
+
+=== "Glock 17"
+
+    <div class="grid" markdown>
+    === "Angle 1"
+    
+        ![Glock 1](assets/media/military_assets/glock_1.png)
+   
+    === "Angle 2"
+    
+        ![Glock 2](assets/media/military_assets/glock_2.png)
+
+    === "Pieces"
+    
+        ![Glock 3](assets/media/military_assets/glock_dissasembled.png)
+    
+    === "Threaded Barrel"
+    
+        ![Glock 4](assets/media/military_assets/glock_threaded.png)
+    
+    === "Compensator"
+    
+        ![Glock 5](assets/media/military_assets/glock_compensator.png)
+    
+    === "Suppressor"
+    
+        ![Glock 6](assets/media/military_assets/glock_suppressor.png)
+
+    === "Wireframe"
+    
+        ![Wireframe](assets/media/military_assets/glock_wireframe.png)
+
+    !!! quote "About"
+
+        Here's some pictures of the Glock 17 model for the game, showcased here are some of the barrel attachments.
+    </div>
+
+=== "9mm Round"
+
+    <div class="grid" markdown>
+    === "Lit"
+    
+        ![9mm Round](assets/media/military_assets/bullet.png)
+   
+    === "Wireframe"
+    
+        ![Wireframe](assets/media/military_assets/bullet_wireframe.png)
+
+    !!! quote "About"
+
+        A bullet to be used in the Glock 17.
+    </div>
