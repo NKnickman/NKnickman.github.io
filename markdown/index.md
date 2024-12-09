@@ -5,6 +5,7 @@ You can use the buttons below or the navigation options on this site to take a l
 <div class="grid" markdown>
 
 [C#](programming_cs.md){ .md-button }
+[Graphics](programming_graphics.md){ .md-button }
 [3D Art](art_3d.md){ .md-button }
 [2D Art](art_2d.md){ .md-button }
 [Music](art_music.md){ .md-button }
