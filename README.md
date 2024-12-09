@@ -1,4 +1,3 @@
-
 Firstly, install mkdocs using "pip install mkdocs"
 Next, install the theme using "pip install mkdocs-material"
 Then, install mike for version control using "pip install mike"
