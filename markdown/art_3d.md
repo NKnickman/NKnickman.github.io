@@ -99,6 +99,41 @@ title: 3D Artwork
         Here's a look at the topology of the model.
     </div>
 
+## Stylized "Brushed" Electric Guitar
+=== "Renders"
+
+    <div class="grid" markdown>
+    === "Closeup"
+    
+        ![Closeup](assets/media/electric_guitar/a.png)
+   
+    === "Top"
+    
+        ![Top](assets/media/electric_guitar/b.png)
+
+    === "Bottom"
+    
+        ![Bottom](assets/media/electric_guitar/c.png)
+
+    === "360 View"
+
+        ![type:video](assets/media/electric_guitar/video.mkv)
+
+    !!! quote "About"
+
+        A stylized electric guitar model for the CRPG project mentioned earlier. All of the essential elements of a functioning electric guitar are visually represented and have accurate proportions. It is low poly and can be used in game engines.
+    </div>
+
+=== "Topology"
+
+    <div class="grid" markdown>
+    ![Topology](assets/media/electric_guitar/topology.png)
+
+    !!! quote "About"
+
+        Subdivision surface was employed often to create the normal maps for the guitar, the topology conforms to the angles built into the design of the guitar. The triangle count for this model is 5,612. A good amount of detail was given to this prop as it will be an important and closely examined item in the game.
+    </div>
+
 ## Wasteland RPG Character Assets
 === "Facial Expressions"
 
