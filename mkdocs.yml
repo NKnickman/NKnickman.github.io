@@ -16,6 +16,8 @@ nav:
     - '2D': 'art_2d.md'
     - '3D': 'art_3d.md'
     - 'Music': 'art_music.md'
+  - 'Other':
+    - 'Projects': 'projects.md'
 theme:
   palette:
     scheme: slate
